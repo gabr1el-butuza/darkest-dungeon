@@ -1,0 +1,157 @@
+@keyframes adventurer {
+    from {
+        background: url('img/adventurer/standby-left.png') no-repeat center;
+    }
+    to {
+        background: url('img/adventurer/standby-right.png') no-repeat center;
+    }
+}
+
+@keyframes adventurer-sword {
+    from {
+        background: url('img/adventurer/standby-left-sword.png') no-repeat center;
+    }
+    to {
+        background: url('img/adventurer/standby-right-sword.png') no-repeat center;
+    }
+}
+
+@keyframes adventurer-move-right {
+    0% {
+        background: url('img/adventurer/movement/right-1.png') no-repeat center;
+    }
+    33% {
+        background: url('img/adventurer/movement/right-2.png') no-repeat center;
+    }
+    66% {
+        background: url('img/adventurer/movement/right-3.png') no-repeat center;
+    }
+    100% {
+        background: url('img/adventurer/movement/right-4.png') no-repeat center;
+    }
+}
+
+@keyframes adventurer-move-left {
+    0% {
+        background: url('img/adventurer/movement/left-1.png') no-repeat center;
+        background-position: center;
+    }
+    33% {
+        background: url('img/adventurer/movement/left-2.png') no-repeat center;
+        background-position: center;
+    }
+    66% {
+        background: url('img/adventurer/movement/left-3.png') no-repeat center;
+        background-position: center;
+    }
+    100% {
+        background: url('img/adventurer/movement/left-4.png') no-repeat;
+        background-position: center;
+    }
+}
+
+@keyframes bat {
+    0% {
+        background: url('img/monsters/bat-1.png') no-repeat center;
+    }
+    25% {
+        background: url('img/monsters/bat-2.png') no-repeat center;
+    }
+    50% {
+        background: url('img/monsters/bat-3.png') no-repeat center;
+    }
+    75% {
+        background: url('img/monsters/bat-4.png') no-repeat center;
+    }
+    100% {
+        background: url('img/monsters/bat-5.png') no-repeat center;
+    }
+}
+
+@keyframes goblin {
+    0% {
+        background: url('img/monsters/goblin-1.png') no-repeat center;
+    }
+    50% {
+        background: url('img/monsters/goblin-2.png') no-repeat center;
+    }
+    100% {
+        background: url('img/monsters/goblin-3.png') no-repeat center;
+    }
+}
+
+@keyframes minotaur {
+    0% {
+        background: url('img/monsters/minotaur-1.png') no-repeat center;
+    }
+    25% {
+        background: url('img/monsters/minotaur-2.png') no-repeat center;
+    }
+    50% {
+        background: url('img/monsters/minotaur-3.png') no-repeat center;
+    }
+    75% {
+        background: url('img/monsters/minotaur-4.png') no-repeat center;
+    }
+    100% {
+        background: url('img/monsters/minotaur-5.png') no-repeat center;
+    }
+}
+
+.sprite {
+    width: 64px;
+    height: 64px;
+}
+
+#adventurer {
+    animation-name: adventurer;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    z-index: 10000;
+    background-position: center;
+    position: absolute;
+}
+
+.hp-bar {
+    margin-top: -3px;
+    width: 40px;
+    height: 8px;
+    position: absolute;
+    margin-left:12px;
+    color: white;
+    font-size: 8px;
+    font-weight: bolder;
+    text-align: center;
+    border: 1px solid rgba(255, 108, 108, 0.5);
+}
+
+.bat {
+    animation-name: bat;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+}
+
+#goblin {
+    animation-name: goblin;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+}
+
+.health-potion {
+    background: url('img/items/health-potion.png') no-repeat center;
+}
+
+.chest-closed {
+    background: url('img/items/chest-closed.png') no-repeat bottom center;
+}
+
+.chest-open {
+    background: url('img/items/chest-open.png') no-repeat bottom center;
+}
+
+#minotaur {
+    animation-name: minotaur;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+}

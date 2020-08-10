@@ -1,0 +1,129 @@
+[
+  {
+    "position": [
+      0,
+      5
+    ],
+    "stats": {
+      "strength": 8,
+      "vitality": 16,
+      "healingPoints": 8
+    },
+    "type": "hero",
+    "id": "adventurer"
+  },
+  {
+    "position": [
+      3,
+      7
+    ],
+    "stats": {
+      "strength": 4,
+      "vitality": 10,
+      "healingPoints": 10
+    },
+    "type": "bat",
+    "id": "bat1",
+    "attackable": true
+  },
+  {
+    "stats": {
+      "strength": 5,
+      "vitality": 12,
+      "healingPoints": 12
+    },
+    "position": [
+      1,
+      5
+    ],
+    "type": "bat",
+    "id": "bat2",
+    "attackable": true
+  },
+  {
+    "position": [
+      4,
+      10
+    ],
+    "stats": {
+      "strength": 10,
+      "vitality": 20,
+      "healingPoints": 20
+    },
+    "type": "vilain",
+    "id": "minotaur",
+    "attackable": true
+  },
+  {
+    "position": [
+      4,
+      3
+    ],
+    "stats": {
+      "strength": 8,
+      "vitality": 15,
+      "healingPoints": 15
+    },
+    "type": "goblin",
+    "id": "goblin",
+    "attackable": true
+  },
+  {
+    "position": [
+      1,
+      1
+    ],
+    "encounterMessage": "Gained 8 healing points",
+    "stats": {
+      "strength": 0,
+      "vitality": 0,
+      "healingPoints": 7
+    },
+    "type": "health-potion",
+    "id": "healthPotion1",
+    "attackable": false
+  },
+  {
+    "position": [
+      4,
+      1
+    ],
+    "encounterMessage": "Gained 8 healing points",
+    "stats": {
+      "strength": 0,
+      "vitality": 0,
+      "healingPoints": 8
+    },
+    "type": "health-potion",
+    "id": "healthPotion2"
+  },
+  {
+    "position": [
+      0,
+      10
+    ],
+    "encounterMessage": "Gained 8 healing points",
+    "stats": {
+      "strength": 0,
+      "vitality": 0,
+      "healingPoints": 8
+    },
+    "type": "health-potion",
+    "id": "healthPotion3"
+  },
+  {
+    "position": [
+      5,
+      0
+    ],
+    "encounterMessage": "It's a rusty old sword and a vest",
+    "stats": {
+      "strength": 12,
+      "vitality": 4,
+      "healingPoints": 4
+    },
+    "type": "chest-closed",
+    "id": "chest1",
+    "attackable": false
+  }
+]

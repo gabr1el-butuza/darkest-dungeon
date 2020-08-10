@@ -1,0 +1,73 @@
+<html>
+
+<head>
+  <title>Darkest Dungeon</title>
+  <link rel="stylesheet" type="text/css" href="css/main.css" />
+  <link rel="stylesheet" type="text/css" href="css/map.css" />
+  <link rel="stylesheet" type="text/css" href="css/sprites.css" />
+  <script type="text/javascript">
+    function preload() {
+      const images = [];
+
+      for (let i = 0; i < arguments.length; i++) {
+        images[i] = new Image();
+        images[i].src = preload.arguments[i];
+      }
+    }
+
+    // Preload animations
+    preload(
+      "css/img/adventurer/standby-left.png",
+      "css/img/adventurer/standby-right.png",
+      "css/img/adventurer/standby-left-sword.png",
+      "css/img/adventurer/standby-right-sword.png",
+      "css/img/adventurer/movement/right-1.png",
+      "css/img/adventurer/movement/right-2.png",
+      "css/img/adventurer/movement/right-3.png",
+      "css/img/adventurer/movement/right-4.png",
+      "css/img/adventurer/movement/left-1.png",
+      "css/img/adventurer/movement/left-2.png",
+      "css/img/adventurer/movement/left-3.png",
+      "css/img/adventurer/movement/left-4.png",
+    )
+  </script>
+</head>
+
+<body>
+  <div id="header">
+    Strength: <span id="strength"></span> Vitality: <span id="vitality"></span>;
+    <br />
+    <span>Use the arrow keys to move; Press space to continue with the dialog</span>
+  </div>
+  <div class="speech-bubble"></div>
+  <div id="map">
+    <div class="map-header">
+      <div class="wall-top">
+        <div class="wall-top-face-left"></div>
+        <div class="wall-top-face-right"></div>
+        <div class="entrance">
+          <div class="door"></div>
+        </div>
+
+      </div>
+    </div>
+    <div class="map-content"></div>
+    <div class="map-footer">
+      <div class="wall-bottom"></div>
+    </div>
+  </div>
+
+  <textarea id="gameLog" readonly disabled>
+       ---LOGS---
+  </textarea>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/config.js"></script>
+  <script src="js/sprites.js"></script>
+  <script src="js/map.js"></script>
+  <script src="js/dialog-sequence.js"></script>
+  <script src="js/game-mechanics.js"></script>
+  <script src="js/game.js"></script>
+</body>
+
+</html>

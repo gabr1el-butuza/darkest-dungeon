@@ -1,0 +1,116 @@
+#map {
+  display: inline-block;
+  background: black;
+}
+
+.map-row div {
+  float: left;
+}
+
+.map-row {
+  background-image: url('img/walls/top-left.png'), url('img/walls/top-right.png');
+  background-position: left top, right top;
+  background-repeat: repeat-y, repeat-y;
+  padding-left: 16px;
+  padding-right: 16px;
+  height: 64px;
+}
+
+.tile {
+  width: 64px;
+  height: 64px;
+  /* opacity: 0.1; */
+  transition: opacity 0.5s;
+  
+}
+
+.tile1 {
+  background: url('img/tiles/1.png') no-repeat;
+}
+
+.tile2 {
+  background: url('img/tiles/2.png') no-repeat;
+}
+
+.tile3 {
+  background: url('img/tiles/3.png') no-repeat;
+}
+
+.tile4 {
+  background: url('img/tiles/4.png') no-repeat;
+}
+
+.tile5 {
+  background: url('img/tiles/5.png') no-repeat;
+}
+
+.tile-ladder {
+  background: url('img/tiles/ladder.png') no-repeat;
+}
+
+.tile-disabled {
+  background: url('img/walls/interior-face.png') no-repeat, url('img/tiles/5.png');
+}
+
+.tile-face1 {
+  background: url('img/walls/face1.png') no-repeat, url('img/tiles/5.png');
+}
+
+.tile-face2 {
+  background: url('img/walls/face2.png') no-repeat, url('img/tiles/5.png');
+}
+
+
+.entrance {
+  width: 104px;
+  height: 82px;
+  background: url('img/walls/entrance.png') no-repeat black;
+  margin: 0 auto;
+  
+}
+
+.wall-top-face-left {
+  width: 36px;
+  height: 82px;
+  background: url('img/walls/face0-cropped.png') no-repeat black;
+  position: absolute;
+  left: 309px;
+  top: auto;
+}
+
+.wall-top-face-right {
+  width: 36px;
+  height: 82px;
+  background: url('img/walls/face0-cropped.png') no-repeat black;
+  position: absolute;
+  left: 437px;
+  top: auto;
+}
+
+.column-double {
+  background: url('img/walls/column-double.png') no-repeat, url('img/tiles/5.png');
+}
+
+.door {
+  width: 74px;
+  height: 62px;
+  background: url('img/walls/door-closed.png') no-repeat;
+  margin: 0 auto;
+  position: absolute;
+  top:73px;
+  left:354px;
+}
+
+.wall-top {
+  height: 82px;
+  background-image: url('img/walls/top-left.png'), url('img/walls/top-right.png'), url('img/walls/top.png');
+  background-position: left top, right top, left top;
+  background-repeat: no-repeat, no-repeat, repeat;
+}
+
+.wall-bottom {
+  height: 16px;
+  background-image: url('img/walls/bottom-left.png'), url('img/walls/bottom-right.png'), url('img/walls/bottom.png');
+  background-position: left top, right top, left top;
+  background-repeat: no-repeat, no-repeat, repeat;
+}

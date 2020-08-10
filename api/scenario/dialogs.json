@@ -1,0 +1,110 @@
+[
+  {
+    "trigger": {
+      "row": 0,
+      "column": 5
+    },
+    "messages": [
+      {
+        "speaker": "adventurer",
+        "message": "Yes, yet another dark room. This will be the adventure of my life."
+      },
+      {
+        "speaker": "minotaur",
+        "message": "*sniff* I smell fresh meat"
+      },
+      {
+        "speaker": "adventurer",
+        "message": "Hmmm... Here is something to destroy. This will be fun."
+      },
+      {
+        "speaker": "adventurer",
+        "message": "Now I need some potions to completely heal my self after the last battle. I'm sure I find some here "
+      }
+    ]
+  },
+  {
+    "trigger": {
+      "row": 4,
+      "column": 8
+    },
+    "messages": [
+      {
+        "speaker": "adventurer",
+        "message": "Looks like there's only one way out"
+      },
+      {
+        "speaker": "adventurer",
+        "message": "I'm going to have to face that thing and distroy it. That's great"
+      },
+      {
+        "speaker": "minotaur",
+        "message": "I waited for years for my axe tasted blood."
+      }
+    ]
+  },
+  {
+    "trigger": {
+      "row": 4,
+      "column": 4
+    },
+    "messages": [
+      {
+        "speaker": "goblin",
+        "message": "...stranger... You can't pass by here!"
+      },
+      {
+        "speaker": "adventurer",
+        "message": "We can find out in only one way!"
+      }
+    ]
+  },
+  {
+    "trigger": {
+      "row": 1,
+      "column": 1
+    },
+    "messages": [
+      {
+        "speaker": "adventurer",
+        "message": "Well, I found something. This may be the potion to heal myself."
+      },
+      {
+        "speaker": "adventurer",
+        "message": "Bottoms up ! It was tasty !"
+      }
+    ]
+  },
+  {
+    "trigger": {
+      "row": 5,
+      "column": 0
+    },
+    "messages": [
+      {
+        "speaker": "adventurer",
+        "message": "Cool ! I found a treasure, let's see if I can open it."
+      },
+      {
+        "speaker": "adventurer",
+        "message": "It's a sword. This should help me kill whatever's out there."
+      }
+    ]
+  },
+  {
+    "trigger": {
+      "row": 3,
+      "column": 10
+    },
+    "messages": [
+      {
+        "speaker": "adventurer",
+        "message": "Take that Mr. Burgers."
+      },
+      {
+        "speaker": "adventurer",
+        "message": "Ba dum tssss."
+      }
+    ]
+  }
+]
